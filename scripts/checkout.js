@@ -176,7 +176,7 @@ function updateCheckoutHeaderSection() {
 
     let checkoutHeaderMiddleSectionHTML = `
         Checkout (<a class="return-to-home-link"
-        href="amazon.html"> ${totalItems} items</a>) `
+        href="index.html"> ${totalItems} items</a>) `
     
     document.querySelector('.js-checkout-header-middle-section').innerHTML = checkoutHeaderMiddleSectionHTML;
 }
